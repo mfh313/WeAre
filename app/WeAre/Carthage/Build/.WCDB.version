@@ -1,0 +1,21 @@
+{
+  "iOS" : [
+    {
+      "hash" : "72b3dcc35bf265740fbc18a5bb943a6f91bdf3478db123438c8f8d4117234d0a",
+      "name" : "WCDB"
+    }
+  ],
+  "commitish" : "v1.0.2",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "Mac" : [
+    {
+      "hash" : "61691fcea29a6a9444c666588d19e03f5fdadfc4abc0ac4cab5d377a49729872",
+      "name" : "WCDB"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+github "AFNetworking/AFNetworking" "3.1.0"
+github "Tencent/WCDB" "v1.0.2"
+github "ccgus/fmdb" "2.7.2"
+github "yuantiku/YTKNetwork" "2.0.3"
