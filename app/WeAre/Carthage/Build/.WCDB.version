@@ -1,7 +1,7 @@
 {
   "iOS" : [
     {
-      "hash" : "72b3dcc35bf265740fbc18a5bb943a6f91bdf3478db123438c8f8d4117234d0a",
+      "hash" : "c1eaa4452d1c4712cc3dfdb980407c561e760ab80915eb6855b5751623440b49",
       "name" : "WCDB"
     }
   ],
@@ -14,7 +14,7 @@
   ],
   "Mac" : [
     {
-      "hash" : "61691fcea29a6a9444c666588d19e03f5fdadfc4abc0ac4cab5d377a49729872",
+      "hash" : "4afbed291d1e9405fc2f545d695b393add917604d9e1d127f6a2a773cc430790",
       "name" : "WCDB"
     }
   ]

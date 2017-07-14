@@ -1,0 +1,21 @@
+{
+  "iOS" : [
+    {
+      "hash" : "fb95354f266f7a383a1f6b26d6c27cf9403b23aa72861f4364b22373e1c62eba",
+      "name" : "FMDB"
+    }
+  ],
+  "commitish" : "2.7.2",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "Mac" : [
+    {
+      "hash" : "5b332b1ea25ab6430278d9ed64b470b3f28388da09197bae778e8e93aef187e7",
+      "name" : "FMDB"
+    }
+  ]
+}

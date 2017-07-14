@@ -1,0 +1,414 @@
+BCSymbolMap Version: 2.0
+-[YTKBaseRequest response]
+-[YTKBaseRequest responseStatusCode]
+-[YTKBaseRequest responseHeaders]
+-[YTKBaseRequest currentRequest]
+-[YTKBaseRequest originalRequest]
+-[YTKBaseRequest isCancelled]
+-[YTKBaseRequest isExecuting]
+-[YTKBaseRequest setCompletionBlockWithSuccess:failure:]
+-[YTKBaseRequest clearCompletionBlock]
+-[YTKBaseRequest addAccessory:]
+-[YTKBaseRequest start]
+-[YTKBaseRequest stop]
+-[YTKBaseRequest startWithCompletionBlockWithSuccess:failure:]
+-[YTKBaseRequest requestCompletePreprocessor]
+-[YTKBaseRequest requestCompleteFilter]
+-[YTKBaseRequest requestFailedPreprocessor]
+-[YTKBaseRequest requestFailedFilter]
+-[YTKBaseRequest requestUrl]
+-[YTKBaseRequest cdnUrl]
+-[YTKBaseRequest baseUrl]
+-[YTKBaseRequest requestTimeoutInterval]
+-[YTKBaseRequest requestArgument]
+-[YTKBaseRequest cacheFileNameFilterForRequestArgument:]
+-[YTKBaseRequest requestMethod]
+-[YTKBaseRequest requestSerializerType]
+-[YTKBaseRequest responseSerializerType]
+-[YTKBaseRequest requestAuthorizationHeaderFieldArray]
+-[YTKBaseRequest requestHeaderFieldValueDictionary]
+-[YTKBaseRequest buildCustomUrlRequest]
+-[YTKBaseRequest useCDN]
+-[YTKBaseRequest allowsCellularAccess]
+-[YTKBaseRequest jsonValidator]
+-[YTKBaseRequest statusCodeValidator]
+-[YTKBaseRequest description]
+-[YTKBaseRequest requestTask]
+-[YTKBaseRequest setRequestTask:]
+-[YTKBaseRequest responseData]
+-[YTKBaseRequest setResponseData:]
+-[YTKBaseRequest responseString]
+-[YTKBaseRequest setResponseString:]
+-[YTKBaseRequest responseObject]
+-[YTKBaseRequest setResponseObject:]
+-[YTKBaseRequest responseJSONObject]
+-[YTKBaseRequest setResponseJSONObject:]
+-[YTKBaseRequest error]
+-[YTKBaseRequest setError:]
+-[YTKBaseRequest tag]
+-[YTKBaseRequest setTag:]
+-[YTKBaseRequest userInfo]
+-[YTKBaseRequest setUserInfo:]
+-[YTKBaseRequest delegate]
+-[YTKBaseRequest setDelegate:]
+-[YTKBaseRequest successCompletionBlock]
+-[YTKBaseRequest setSuccessCompletionBlock:]
+-[YTKBaseRequest failureCompletionBlock]
+-[YTKBaseRequest setFailureCompletionBlock:]
+-[YTKBaseRequest requestAccessories]
+-[YTKBaseRequest setRequestAccessories:]
+-[YTKBaseRequest constructingBodyBlock]
+-[YTKBaseRequest setConstructingBodyBlock:]
+-[YTKBaseRequest resumableDownloadPath]
+-[YTKBaseRequest setResumableDownloadPath:]
+-[YTKBaseRequest resumableDownloadProgressBlock]
+-[YTKBaseRequest setResumableDownloadProgressBlock:]
+-[YTKBaseRequest requestPriority]
+-[YTKBaseRequest setRequestPriority:]
+-[YTKBaseRequest .cxx_destruct]
+_OBJC_IVAR_$_YTKBaseRequest._requestTask
+_OBJC_IVAR_$_YTKBaseRequest._responseData
+_OBJC_IVAR_$_YTKBaseRequest._responseString
+_OBJC_IVAR_$_YTKBaseRequest._responseObject
+_OBJC_IVAR_$_YTKBaseRequest._responseJSONObject
+_OBJC_IVAR_$_YTKBaseRequest._error
+_OBJC_IVAR_$_YTKBaseRequest._tag
+_OBJC_IVAR_$_YTKBaseRequest._userInfo
+_OBJC_IVAR_$_YTKBaseRequest._delegate
+_OBJC_IVAR_$_YTKBaseRequest._successCompletionBlock
+_OBJC_IVAR_$_YTKBaseRequest._failureCompletionBlock
+_OBJC_IVAR_$_YTKBaseRequest._requestAccessories
+_OBJC_IVAR_$_YTKBaseRequest._constructingBodyBlock
+_OBJC_IVAR_$_YTKBaseRequest._resumableDownloadPath
+_OBJC_IVAR_$_YTKBaseRequest._resumableDownloadProgressBlock
+_OBJC_IVAR_$_YTKBaseRequest._requestPriority
+Apple LLVM version 8.1.0 (clang-802.0.41)
+/Users/eeka/Documents/SVN/EekaMShop/EekaMShop/Carthage/Checkouts/YTKNetwork/YTKNetwork/YTKBaseRequest.m
+/Users/eeka/Documents/SVN/EekaMShop/EekaMShop/Carthage/Checkouts/YTKNetwork
+/Users/eeka/Documents/SVN/EekaMShop/EekaMShop/Carthage/Checkouts/YTKNetwork/YTKNetwork/YTKBaseRequest.h
+-[YTKBatchRequest initWithRequestArray:]
+-[YTKBatchRequest start]
+-[YTKBatchRequest stop]
+-[YTKBatchRequest startWithCompletionBlockWithSuccess:failure:]
+-[YTKBatchRequest setCompletionBlockWithSuccess:failure:]
+-[YTKBatchRequest clearCompletionBlock]
+-[YTKBatchRequest isDataFromCache]
+-[YTKBatchRequest dealloc]
+-[YTKBatchRequest requestFinished:]
+-[YTKBatchRequest requestFailed:]
+-[YTKBatchRequest clearRequest]
+-[YTKBatchRequest addAccessory:]
+-[YTKBatchRequest requestArray]
+-[YTKBatchRequest delegate]
+-[YTKBatchRequest setDelegate:]
+-[YTKBatchRequest successCompletionBlock]
+-[YTKBatchRequest setSuccessCompletionBlock:]
+-[YTKBatchRequest failureCompletionBlock]
+-[YTKBatchRequest setFailureCompletionBlock:]
+-[YTKBatchRequest tag]
+-[YTKBatchRequest setTag:]
+-[YTKBatchRequest requestAccessories]
+-[YTKBatchRequest setRequestAccessories:]
+-[YTKBatchRequest failedRequest]
+-[YTKBatchRequest finishedCount]
+-[YTKBatchRequest setFinishedCount:]
+-[YTKBatchRequest .cxx_destruct]
+_OBJC_IVAR_$_YTKBatchRequest._requestArray
+_OBJC_IVAR_$_YTKBatchRequest._finishedCount
+_OBJC_IVAR_$_YTKBatchRequest._failedRequest
+_OBJC_IVAR_$_YTKBatchRequest._delegate
+_OBJC_IVAR_$_YTKBatchRequest._successCompletionBlock
+_OBJC_IVAR_$_YTKBatchRequest._failureCompletionBlock
+_OBJC_IVAR_$_YTKBatchRequest._tag
+_OBJC_IVAR_$_YTKBatchRequest._requestAccessories
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_YTKRequestDelegate
+l_OBJC_LABEL_PROTOCOL_$_YTKRequestDelegate
+/Users/eeka/Documents/SVN/EekaMShop/EekaMShop/Carthage/Checkouts/YTKNetwork/YTKNetwork/YTKBatchRequest.m
+/Users/eeka/Documents/SVN/EekaMShop/EekaMShop/Carthage/Checkouts/YTKNetwork/YTKNetwork/YTKBatchRequest.h
++[YTKBatchRequestAgent sharedAgent]
+___35+[YTKBatchRequestAgent sharedAgent]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[YTKBatchRequestAgent init]
+-[YTKBatchRequestAgent addBatchRequest:]
+-[YTKBatchRequestAgent removeBatchRequest:]
+-[YTKBatchRequestAgent requestArray]
+-[YTKBatchRequestAgent setRequestArray:]
+-[YTKBatchRequestAgent .cxx_destruct]
+_sharedAgent.sharedInstance
+_sharedAgent.onceToken
+___block_descriptor_tmp
+_OBJC_IVAR_$_YTKBatchRequestAgent._requestArray
+/Users/eeka/Documents/SVN/EekaMShop/EekaMShop/Carthage/Checkouts/YTKNetwork/YTKNetwork/YTKBatchRequestAgent.m
+__destroy_helper_block_
+__copy_helper_block_
+__35+[YTKBatchRequestAgent sharedAgent]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.2.sdk/usr/include/dispatch/once.h
+-[YTKChainRequest init]
+___23-[YTKChainRequest init]_block_invoke
+-[YTKChainRequest start]
+-[YTKChainRequest stop]
+-[YTKChainRequest addRequest:callback:]
+-[YTKChainRequest requestArray]
+-[YTKChainRequest startNextRequest]
+-[YTKChainRequest requestFinished:]
+-[YTKChainRequest requestFailed:]
+-[YTKChainRequest clearRequest]
+-[YTKChainRequest addAccessory:]
+-[YTKChainRequest delegate]
+-[YTKChainRequest setDelegate:]
+-[YTKChainRequest requestAccessories]
+-[YTKChainRequest setRequestAccessories:]
+-[YTKChainRequest setRequestArray:]
+-[YTKChainRequest requestCallbackArray]
+-[YTKChainRequest setRequestCallbackArray:]
+-[YTKChainRequest nextRequestIndex]
+-[YTKChainRequest setNextRequestIndex:]
+-[YTKChainRequest emptyCallback]
+-[YTKChainRequest setEmptyCallback:]
+-[YTKChainRequest .cxx_destruct]
+_OBJC_IVAR_$_YTKChainRequest._nextRequestIndex
+_OBJC_IVAR_$_YTKChainRequest._requestArray
+_OBJC_IVAR_$_YTKChainRequest._requestCallbackArray
+___block_literal_global
+_OBJC_IVAR_$_YTKChainRequest._emptyCallback
+_OBJC_IVAR_$_YTKChainRequest._delegate
+_OBJC_IVAR_$_YTKChainRequest._requestAccessories
+/Users/eeka/Documents/SVN/EekaMShop/EekaMShop/Carthage/Checkouts/YTKNetwork/YTKNetwork/YTKChainRequest.m
+/Users/eeka/Documents/SVN/EekaMShop/EekaMShop/Carthage/Checkouts/YTKNetwork/YTKNetwork/YTKChainRequest.h
+__23-[YTKChainRequest init]_block_invoke
++[YTKChainRequestAgent sharedAgent]
+___35+[YTKChainRequestAgent sharedAgent]_block_invoke
+-[YTKChainRequestAgent init]
+-[YTKChainRequestAgent addChainRequest:]
+-[YTKChainRequestAgent removeChainRequest:]
+-[YTKChainRequestAgent requestArray]
+-[YTKChainRequestAgent setRequestArray:]
+-[YTKChainRequestAgent .cxx_destruct]
+_OBJC_IVAR_$_YTKChainRequestAgent._requestArray
+/Users/eeka/Documents/SVN/EekaMShop/EekaMShop/Carthage/Checkouts/YTKNetwork/YTKNetwork/YTKChainRequestAgent.m
+__35+[YTKChainRequestAgent sharedAgent]_block_invoke
++[YTKNetworkAgent sharedAgent]
+___30+[YTKNetworkAgent sharedAgent]_block_invoke
+-[YTKNetworkAgent init]
+-[YTKNetworkAgent jsonResponseSerializer]
+-[YTKNetworkAgent xmlParserResponseSerialzier]
+-[YTKNetworkAgent buildRequestUrl:]
+-[YTKNetworkAgent requestSerializerForRequest:]
+-[YTKNetworkAgent sessionTaskForRequest:error:]
+-[YTKNetworkAgent addRequest:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___30-[YTKNetworkAgent addRequest:]_block_invoke
+___copy_helper_block_.132
+___destroy_helper_block_.133
+-[YTKNetworkAgent cancelRequest:]
+-[YTKNetworkAgent cancelAllRequests]
+-[YTKNetworkAgent validateResult:error:]
+-[YTKNetworkAgent handleRequestResult:responseObject:error:]
+___60-[YTKNetworkAgent handleRequestResult:responseObject:error:]_block_invoke
+___copy_helper_block_.234
+___destroy_helper_block_.235
+-[YTKNetworkAgent requestDidSucceedWithRequest:]
+___48-[YTKNetworkAgent requestDidSucceedWithRequest:]_block_invoke
+___copy_helper_block_.251
+___destroy_helper_block_.252
+-[YTKNetworkAgent requestDidFailWithRequest:error:]
+___51-[YTKNetworkAgent requestDidFailWithRequest:error:]_block_invoke
+___copy_helper_block_.289
+___destroy_helper_block_.290
+-[YTKNetworkAgent addRequestToRecord:]
+-[YTKNetworkAgent removeRequestFromRecord:]
+-[YTKNetworkAgent dataTaskWithHTTPMethod:requestSerializer:URLString:parameters:error:]
+-[YTKNetworkAgent dataTaskWithHTTPMethod:requestSerializer:URLString:parameters:constructingBodyWithBlock:error:]
+___113-[YTKNetworkAgent dataTaskWithHTTPMethod:requestSerializer:URLString:parameters:constructingBodyWithBlock:error:]_block_invoke
+___copy_helper_block_.302
+___destroy_helper_block_.303
+-[YTKNetworkAgent downloadTaskWithDownloadPath:requestSerializer:URLString:parameters:progress:error:]
+___102-[YTKNetworkAgent downloadTaskWithDownloadPath:requestSerializer:URLString:parameters:progress:error:]_block_invoke
+___copy_helper_block_.322
+___destroy_helper_block_.323
+___102-[YTKNetworkAgent downloadTaskWithDownloadPath:requestSerializer:URLString:parameters:progress:error:]_block_invoke.326
+___copy_helper_block_.327
+___destroy_helper_block_.328
+___102-[YTKNetworkAgent downloadTaskWithDownloadPath:requestSerializer:URLString:parameters:progress:error:]_block_invoke.337
+___copy_helper_block_.338
+___destroy_helper_block_.339
+___102-[YTKNetworkAgent downloadTaskWithDownloadPath:requestSerializer:URLString:parameters:progress:error:]_block_invoke.341
+___copy_helper_block_.342
+___destroy_helper_block_.343
+-[YTKNetworkAgent incompleteDownloadTempCacheFolder]
+-[YTKNetworkAgent incompleteDownloadTempPathForDownloadPath:]
+-[YTKNetworkAgent manager]
+-[YTKNetworkAgent resetURLSessionManager]
+-[YTKNetworkAgent resetURLSessionManagerWithConfiguration:]
+-[YTKNetworkAgent .cxx_destruct]
+_OBJC_IVAR_$_YTKNetworkAgent._config
+_OBJC_IVAR_$_YTKNetworkAgent._manager
+_OBJC_IVAR_$_YTKNetworkAgent._requestsRecord
+_OBJC_IVAR_$_YTKNetworkAgent._processingQueue
+_OBJC_IVAR_$_YTKNetworkAgent._allStatusCodes
+_OBJC_IVAR_$_YTKNetworkAgent._lock
+_OBJC_IVAR_$_YTKNetworkAgent._jsonResponseSerializer
+_OBJC_IVAR_$_YTKNetworkAgent._xmlParserResponseSerialzier
+___block_descriptor_tmp.135
+___block_descriptor_tmp.236
+___block_descriptor_tmp.253
+___block_descriptor_tmp.291
+___block_descriptor_tmp.304
+___block_descriptor_tmp.325
+___block_descriptor_tmp.330
+___block_descriptor_tmp.340
+___block_descriptor_tmp.344
+_incompleteDownloadTempCacheFolder.cacheFolder
+/Users/eeka/Documents/SVN/EekaMShop/EekaMShop/Carthage/Checkouts/YTKNetwork/YTKNetwork/YTKNetworkAgent.m
+__102-[YTKNetworkAgent downloadTaskWithDownloadPath:requestSerializer:URLString:parameters:progress:error:]_block_invoke.341
+__102-[YTKNetworkAgent downloadTaskWithDownloadPath:requestSerializer:URLString:parameters:progress:error:]_block_invoke.337
+__102-[YTKNetworkAgent downloadTaskWithDownloadPath:requestSerializer:URLString:parameters:progress:error:]_block_invoke.326
+__102-[YTKNetworkAgent downloadTaskWithDownloadPath:requestSerializer:URLString:parameters:progress:error:]_block_invoke
+__113-[YTKNetworkAgent dataTaskWithHTTPMethod:requestSerializer:URLString:parameters:constructingBodyWithBlock:error:]_block_invoke
+__51-[YTKNetworkAgent requestDidFailWithRequest:error:]_block_invoke
+__48-[YTKNetworkAgent requestDidSucceedWithRequest:]_block_invoke
+__60-[YTKNetworkAgent handleRequestResult:responseObject:error:]_block_invoke
+__30-[YTKNetworkAgent addRequest:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__30+[YTKNetworkAgent sharedAgent]_block_invoke
++[YTKNetworkConfig sharedConfig]
+___32+[YTKNetworkConfig sharedConfig]_block_invoke
+-[YTKNetworkConfig init]
+-[YTKNetworkConfig addUrlFilter:]
+-[YTKNetworkConfig clearUrlFilter]
+-[YTKNetworkConfig addCacheDirPathFilter:]
+-[YTKNetworkConfig clearCacheDirPathFilter]
+-[YTKNetworkConfig urlFilters]
+-[YTKNetworkConfig cacheDirPathFilters]
+-[YTKNetworkConfig description]
+-[YTKNetworkConfig baseUrl]
+-[YTKNetworkConfig setBaseUrl:]
+-[YTKNetworkConfig cdnUrl]
+-[YTKNetworkConfig setCdnUrl:]
+-[YTKNetworkConfig securityPolicy]
+-[YTKNetworkConfig setSecurityPolicy:]
+-[YTKNetworkConfig debugLogEnabled]
+-[YTKNetworkConfig setDebugLogEnabled:]
+-[YTKNetworkConfig sessionConfiguration]
+-[YTKNetworkConfig setSessionConfiguration:]
+-[YTKNetworkConfig .cxx_destruct]
+_sharedConfig.sharedInstance
+_sharedConfig.onceToken
+_OBJC_IVAR_$_YTKNetworkConfig._baseUrl
+_OBJC_IVAR_$_YTKNetworkConfig._cdnUrl
+_OBJC_IVAR_$_YTKNetworkConfig._urlFilters
+_OBJC_IVAR_$_YTKNetworkConfig._cacheDirPathFilters
+_OBJC_IVAR_$_YTKNetworkConfig._securityPolicy
+_OBJC_IVAR_$_YTKNetworkConfig._debugLogEnabled
+_OBJC_IVAR_$_YTKNetworkConfig._sessionConfiguration
+/Users/eeka/Documents/SVN/EekaMShop/EekaMShop/Carthage/Checkouts/YTKNetwork/YTKNetwork/YTKNetworkConfig.m
+/Users/eeka/Documents/SVN/EekaMShop/EekaMShop/Carthage/Checkouts/YTKNetwork/YTKNetwork/YTKNetworkConfig.h
+__32+[YTKNetworkConfig sharedConfig]_block_invoke
++[YTKNetworkUtils validateJSON:withValidator:]
++[YTKNetworkUtils addDoNotBackupAttribute:]
++[YTKNetworkUtils md5StringFromString:]
++[YTKNetworkUtils appVersionString]
++[YTKNetworkUtils stringEncodingWithRequest:]
++[YTKNetworkUtils validateResumeData:]
+-[YTKBaseRequest(RequestAccessory) toggleAccessoriesWillStartCallBack]
+-[YTKBaseRequest(RequestAccessory) toggleAccessoriesWillStopCallBack]
+-[YTKBaseRequest(RequestAccessory) toggleAccessoriesDidStopCallBack]
+-[YTKBatchRequest(RequestAccessory) toggleAccessoriesWillStartCallBack]
+-[YTKBatchRequest(RequestAccessory) toggleAccessoriesWillStopCallBack]
+-[YTKBatchRequest(RequestAccessory) toggleAccessoriesDidStopCallBack]
+-[YTKChainRequest(RequestAccessory) toggleAccessoriesWillStartCallBack]
+-[YTKChainRequest(RequestAccessory) toggleAccessoriesWillStopCallBack]
+-[YTKChainRequest(RequestAccessory) toggleAccessoriesDidStopCallBack]
+/Users/eeka/Documents/SVN/EekaMShop/EekaMShop/Carthage/Checkouts/YTKNetwork/YTKNetwork/YTKNetworkPrivate.m
+YTKLog
++[YTKCacheMetadata supportsSecureCoding]
+-[YTKCacheMetadata encodeWithCoder:]
+-[YTKCacheMetadata initWithCoder:]
+-[YTKCacheMetadata version]
+-[YTKCacheMetadata setVersion:]
+-[YTKCacheMetadata sensitiveDataString]
+-[YTKCacheMetadata setSensitiveDataString:]
+-[YTKCacheMetadata stringEncoding]
+-[YTKCacheMetadata setStringEncoding:]
+-[YTKCacheMetadata creationDate]
+-[YTKCacheMetadata setCreationDate:]
+-[YTKCacheMetadata appVersionString]
+-[YTKCacheMetadata setAppVersionString:]
+-[YTKCacheMetadata .cxx_destruct]
+-[YTKRequest start]
+___19-[YTKRequest start]_block_invoke
+-[YTKRequest startWithoutCache]
+-[YTKRequest requestCompletePreprocessor]
+___41-[YTKRequest requestCompletePreprocessor]_block_invoke
+___copy_helper_block_.103
+___destroy_helper_block_.104
+-[YTKRequest cacheTimeInSeconds]
+-[YTKRequest cacheVersion]
+-[YTKRequest cacheSensitiveData]
+-[YTKRequest writeCacheAsynchronously]
+-[YTKRequest isDataFromCache]
+-[YTKRequest responseData]
+-[YTKRequest responseString]
+-[YTKRequest responseJSONObject]
+-[YTKRequest responseObject]
+-[YTKRequest loadCacheWithError:]
+-[YTKRequest validateCacheWithError:]
+-[YTKRequest loadCacheMetadata]
+-[YTKRequest loadCacheData]
+-[YTKRequest saveResponseDataToCacheFile:]
+-[YTKRequest clearCacheVariables]
+-[YTKRequest createDirectoryIfNeeded:]
+-[YTKRequest createBaseDirectoryAtPath:]
+-[YTKRequest cacheBasePath]
+-[YTKRequest cacheFileName]
+-[YTKRequest cacheFilePath]
+-[YTKRequest cacheMetadataFilePath]
+-[YTKRequest ignoreCache]
+-[YTKRequest setIgnoreCache:]
+-[YTKRequest cacheData]
+-[YTKRequest setCacheData:]
+-[YTKRequest cacheString]
+-[YTKRequest setCacheString:]
+-[YTKRequest cacheJSON]
+-[YTKRequest setCacheJSON:]
+-[YTKRequest cacheXML]
+-[YTKRequest setCacheXML:]
+-[YTKRequest cacheMetadata]
+-[YTKRequest setCacheMetadata:]
+-[YTKRequest dataFromCache]
+-[YTKRequest setDataFromCache:]
+-[YTKRequest .cxx_destruct]
+___ytkrequest_cache_writing_queue_block_invoke
+_OBJC_IVAR_$_YTKCacheMetadata._version
+_OBJC_IVAR_$_YTKCacheMetadata._sensitiveDataString
+_OBJC_IVAR_$_YTKCacheMetadata._stringEncoding
+_OBJC_IVAR_$_YTKCacheMetadata._creationDate
+_OBJC_IVAR_$_YTKCacheMetadata._appVersionString
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+l_OBJC_PROTOCOL_$_NSSecureCoding
+l_OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+_OBJC_IVAR_$_YTKRequest._dataFromCache
+___block_descriptor_tmp.105
+_OBJC_IVAR_$_YTKRequest._cacheData
+_OBJC_IVAR_$_YTKRequest._cacheString
+_OBJC_IVAR_$_YTKRequest._cacheJSON
+_OBJC_IVAR_$_YTKRequest._cacheXML
+_OBJC_IVAR_$_YTKRequest._cacheMetadata
+_OBJC_IVAR_$_YTKRequest._ignoreCache
+_ytkrequest_cache_writing_queue.queue
+_ytkrequest_cache_writing_queue.onceToken
+___block_descriptor_tmp.295
+/Users/eeka/Documents/SVN/EekaMShop/EekaMShop/Carthage/Checkouts/YTKNetwork/YTKNetwork/YTKRequest.m
+__ytkrequest_cache_writing_queue_block_invoke
+/Users/eeka/Documents/SVN/EekaMShop/EekaMShop/Carthage/Checkouts/YTKNetwork/YTKNetwork/YTKRequest.h
+__41-[YTKRequest requestCompletePreprocessor]_block_invoke
+ytkrequest_cache_writing_queue
+__19-[YTKRequest start]_block_invoke
+/Users/eeka/Library/Caches/org.carthage.CarthageKit/DerivedData/YTKNetwork/2.0.3/Build/Intermediates/YTKNetwork.build/Release-watchos/YTKNetwork watchOS.build/DerivedSources/YTKNetwork_vers.c
