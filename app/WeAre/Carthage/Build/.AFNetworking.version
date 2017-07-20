@@ -1,0 +1,27 @@
+{
+  "iOS" : [
+    {
+      "hash" : "4df555648368f3b5e0a5dacb4745b075dd3f79c21738556d6b1bbe69c42517b9",
+      "name" : "AFNetworking"
+    }
+  ],
+  "commitish" : "3.1.0",
+  "watchOS" : [
+    {
+      "hash" : "1151dba629ca48d70ca50cf9ffe57c3fadd609d6d07210aaa9c73b87ab3ba01f",
+      "name" : "AFNetworking"
+    }
+  ],
+  "tvOS" : [
+    {
+      "hash" : "17d3c46dc8b14f8d3cd0c53d3a39887134a58daa1f5601cc031deb462f00ae44",
+      "name" : "AFNetworking"
+    }
+  ],
+  "Mac" : [
+    {
+      "hash" : "a75b761c91dabacd426c2d33cc70aedd2f1b286d911f9fa1957b3955440932fe",
+      "name" : "AFNetworking"
+    }
+  ]
+}
